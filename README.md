@@ -16,12 +16,12 @@ A partir del archivo `index.html` (la página principal), se deben crear **dos p
 ## Instrucciones de desarrollo
 
 - Seguir la **estructura de `index.html`**: mantener el uso de clases, estructura de `<section>`, `<header>`, `<footer>`, etc.
+- Implementar el **footer en `index.html`**, asegurando que tenga la información y estilo adecuados.
 - Reutilizar el mismo **`<nav>` de navegación** en todas las páginas.
 - No modificar los estilos base del archivo `style.css`, salvo que sea necesario de forma global.
 - Completar progresivamente la información de las secciones:
   - Textos relevantes sobre la empresa, servicios, etc.
   - Imágenes necesarias (fotos de obras, logos, equipo, etc.)
-
 ---
 
 ## Archivos clave
