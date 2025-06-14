@@ -2,3 +2,27 @@
     margin: 0;
     padding: 0;
 }
+.navbar nav{
+    display: flex;
+    flex-direction: row;
+    border: solid 1px yellow;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    padding: 10px 0;
+}
+.cards{
+    border: solid 2px red;
+    width: 100vw;
+    height: auto;
+}
+.card-main{
+    border: solid 2px green
+}
+.card-main section{
+    border: solid 2px orange;
+    height: 100vh;
+}
