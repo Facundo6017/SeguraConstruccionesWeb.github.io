@@ -5,7 +5,7 @@ Este proyecto es un sitio web estático desarrollado con HTML y CSS.
 ## Estructura del sitio
 
 A partir del archivo `index.html` (la página principal), se deben crear **dos páginas adicionales** (por ahora) que mantengan la misma estructura y estilo general:
-
+- `servicios.html`→ Pagina con los servicios que ofrece la empresa.
 - `nosotros.html` → Página con información sobre la empresa.
 - `contacto.html` → Formulario o medios de contacto.
 
