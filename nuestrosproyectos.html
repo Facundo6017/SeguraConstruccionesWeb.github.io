@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Proyectos</title>
+    <link href="style/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="cards">
+        <div class="card-header">
+            <header>
+                <div class="navbar">
+                    <nav>
+                        <div class="nav-img">
+                           <img src="media/icon.png" class="cover"> 
+                        </div>
+                        <div class="nav-menu">
+                            <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="servicios.html">Servicios</a></li>
+                                <li><a href="nuestrosproyectos.html">Nuestro Trabajo</a></li>
+                                <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                                <li><a href="contacto.html">Contacto</a></li>
+                                <li><button>menu</button></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        </div>
+    </div>
+     <section class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Proyectos</h2>
+                <p class="section-subtitle">Descubre nuestra cartera de obras realizadas con los más altos estándares de calidad en construcción</p>
+            </div>
+            
+            <!-- Filtros por categoría -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="residencial">Residencial</button>
+                <button class="filter-btn" data-filter="comercial">Comercial</button>
+                <button class="filter-btn" data-filter="industrial">Industrial</button>
+                <button class="filter-btn" data-filter="infraestructura">Infraestructura</button>
+            </div>
+            
+            <!-- Grid de proyectos -->
+            <div class="projects-grid">
+                <!-- Proyecto 1 -->
+                <div class="project-card" data-category="residencial">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400?text=Torres+del+Parque" alt="Torres del Parque">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Residencial</span>
+                        <h3 class="project-title">Torres del Parque</h3>
+                        <p class="project-description">Conjunto residencial de lujo con 120 apartamentos, áreas comunes premium y diseño bioclimático.</p>
+                        <div class="project-details">
+                            <div class="project-detail">
+                                <div class="detail-value">24 meses</div>
+                                <div class="detail-label">Duración</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="detail-value">12,500 m²</div>
+                                <div class="detail-label">Área construida</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="detail-value">2023</div>
+                                <div class="detail-label">Año</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 2 -->
+                <div class="project-card" data-category="comercial">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400?text=Centro+Empresarial+Moderno" alt="Centro Empresarial Moderno">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Comercial</span>
+                        <h3 class="project-title">Centro Empresarial Moderno</h3>
+                        <p class="project-description">Edificio de oficinas clase A con certificación LEED Gold, estacionamiento automatizado y áreas comunes.</p>
+                        <div class="project-details">
+                            <div class="project-detail">
+                                <div class="detail-value">18 meses</div>
+                                <div class="detail-label">Duración</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="detail-value">8,200 m²</div>
+                                <div class="detail-label">Área construida</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="detail-value">2022</div>
+                                <div class="detail-label">Año</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 3 -->
+                <div class="project-card" data-category="industrial">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400?text=Planta+de+Manufactura" alt="Planta de Manufactura">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Industrial</span>
+                        <h3 class="project-title">Planta de Manufactura</h3>
+                        <p class="project-description">Complejo industrial para producción a gran escala con áreas de almacenamiento y logística integrada.</p>
+                        <div class="project-details">
+                            <div class="project-detail">
+                                <div class="detail-value">14 meses</div>
+                                <div class="detail-label">Duración</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="detail-value">25,000 m²</div>
+                                <div class="detail-label">Área construida</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="detail-value">2021</div>
+                                <div class="detail-label">Año</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 4 -->
+                <div class="project-card" data-category="infraestructura">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400?text=Puente+Viaducto+Norte" alt="Puente Viaducto Norte">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Infraestructura</span>
+                        <h3 class="project-title">Puente Viaducto Norte</h3>
+                        <p class="project-description">Estructura de 1.2 km que conecta dos municipios, con tecnología antisísmica y sistema de drenaje avanzado.</p>
+                        <div class="project-details">
+                            <div class="project-detail">
+                                <div class="detail-value">22 meses</div>
+                                <div class="detail-label">Duración</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="detail-value">1,200 m</div>
+                                <div class="detail-label">Longitud</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="detail-value">2020</div>
+                                <div class="detail-label">Año</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 5 -->
+                <div class="project-card" data-category="residencial">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400?text=Condominio+Verde" alt="Condominio Verde">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Residencial</span>
+                        <h3 class="project-title">Condominio Verde</h3>
+                        <p class="project-description">Complejo de viviendas sostenibles con certificación EDGE, áreas verdes y sistema de energía solar.</p>
+                        <div class="project-details">
+                            <div class="project-detail">
+                                <div class="detail-value">20 meses</div>
+                                <div class="detail-label">Duración</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="detail-value">9,800 m²</div>
+                                <div class="detail-label">Área construida</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="detail-value">2022</div>
+                                <div class="detail-label">Año</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 6 -->
+                <div class="project-card" data-category="comercial">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400?text=Mall+Metropolitano" alt="Mall Metropolitano">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Comercial</span>
+                        <h3 class="project-title">Mall Metropolitano</h3>
+                        <p class="project-description">Centro comercial con 120 locales, cine, food court y estacionamiento para 800 vehículos.</p>
+                        <div class="project-details">
+                            <div class="project-detail">
+                                <div class="detail-value">28 meses</div>
+                                <div class="detail-label">Duración</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="detail-value">45,000 m²</div>
+                                <div class="detail-label">Área construida</div>
+                            </div>
+                            <div class="project-detail">
+                                <div class="detail-value">2023</div>
+                                <div class="detail-label">Año</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-more">
+                <a href="#" class="btn-view-more">Ver todos los proyectos</a>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
