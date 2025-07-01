@@ -1,38 +1,76 @@
 # Segura Construcciones - Sitio Web
 
-Este proyecto es un sitio web estático desarrollado con HTML y CSS.
+Sitio web estático desarrollado con HTML y CSS.
 
-## Estructura del sitio
+---
 
-A partir del archivo `index.html` (la página principal), se deben crear **dos páginas adicionales** (por ahora) que mantengan la misma estructura y estilo general:
-- `servicios.html`→ Pagina con los servicios que ofrece la empresa.
-- `nosotros.html` → Página con información sobre la empresa.
+## 📂 Estructura del Sitio
+
+Actualmente el sitio se compone de las siguientes páginas:
+
+- `index.html` → Página principal.
+- `servicios.html` → Página con los servicios ofrecidos por la empresa.
+- `nosotros.html` → Información institucional.
 - `contacto.html` → Formulario o medios de contacto.
+- `style.css` → Estilos generales.
+- `/media` → Carpeta con imágenes del sitio.
 
-> **Nota:** La página `nuestros-trabajos.html` **no debe implementarse por el momento**, ya que requiere un diseño más complejo que se abordará más adelante.
+---
+
+## ✅ Tareas Pendientes Elegir una e informar en discord por favor 
+
+- [ ] Terminar el `footer` en todas las páginas. (recomendado)
+- [ ] Agregar imágenes a las páginas `servicios.html` y `nosotros.html`.(se necesita de invertigar y leer bien la parte del css)
+- [ ] Revisar el diseño de `contacto.html`.(recomendado, se deberian cambiar unas clases de esta pag por que esta siendo afectada por el estilo cuando no deberia)
+- [ ] Completar los párrafos e información de las páginas `servicios.html`, `nosotros.html` y `contacto.html`.(recomendado)
 
 ---
 
-## Instrucciones de desarrollo
+## ⚠️ Aclaraciones Importantes
 
-- Seguir la **estructura de `index.html`**: mantener el uso de clases, estructura de `<section>`, `<header>`, `<footer>`, etc.
-- Implementar el **footer en `index.html`**, asegurando que tenga la información y estilo adecuados.
-- Reutilizar el mismo **`<nav>` de navegación** en todas las páginas.
-- No modificar los estilos base del archivo `style.css`, salvo que sea necesario de forma global.
-- Completar progresivamente la información de las secciones:
-  - Textos relevantes sobre la empresa, servicios, etc.
-  - Imágenes necesarias (fotos de obras, logos, equipo, etc.)
----
+### 🔎 Revisión de `contacto.html`
+Se recomienda:
+1. Abrir la página con **Open Live Server**.
+2. Hacer clic derecho y elegir **Inspeccionar**.
+3. Ir a la pestaña **"Styles"** y revisar **etiqueta por etiqueta**.
+4. Identificar qué instrucciones CSS están afectando negativamente la estructura.
 
-## Archivos clave
-
-- `index.html`: Página de inicio.
-- `nosotros.html`: (por hacer) Información institucional.
-- `contacto.html`: (por hacer) Formulario de contacto.
-- `style.css`: Estilos generales del sitio.
-- `img/`: Carpeta de imágenes (logos, obras, etc.)
+> ⚠ Esta página no debería tener estilos aplicados aún, ya que no se trabajó su maquetado.
 
 ---
+
+### ✍️ Redacción de Contenidos
+- Para completar los párrafos e información textual, se puede recurrir a **inteligencias artificiales**.
+- Sin embargo, **los textos generados deben pasar por un _naturalizador de texto_** para que suenen auténticos y humanos.
+
+---
+
+### 🧠 Organización del Trabajo
+Cada integrante debe:
+- Elegir **una de las tareas** listadas arriba.
+- **Informar su elección en el servidor de Discord** correspondiente antes de comenzar a trabajar.
+
+---
+
+## 🚀 A partir de ahora: trabajar con Pull Requests
+
+Para mantener un control ordenado del proyecto, **todas las modificaciones deben realizarse mediante _pull requests_**.
+
+#### ¿Cómo subir una Pull Request?
+
+1. Clonar el repositorio si aún no lo hiciste.
+
+2. Crear una nueva rama con un nombre que identifique la tarea que vas a realizar.
+
+3. Hacer los cambios necesarios en esa rama.
+
+4. Guardar y subir los cambios al repositorio remoto.
+
+5. Ir a GitHub y hacer clic en “Compare & pull request” para crear la solicitud de revisión de cambios.
+
+---
+INVESTIGAR COMO REALIZAR LA PULL 
+
 
 ## Objetivo
 
