@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Segura Construcciones SA</title>
     <link href="style/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         <div class="navbar">
             <nav>
                 <div class="nav-img">
-                    <img src="media/icon.png" class="cover" alt="Logo de la empresa">
+                    <h2>J.C Segura Construcciones</h2>
                 </div>
                 <div class="nav-menu">
                     <ul>
@@ -32,18 +33,38 @@
     <main>
         <!-- Sección de Inicio -->
         <section class="inicio-section">
-            <div class="box-1">
-                <img src="" class="cover" alt="Imagen de inicio">
-            </div>
-            <div class="box-2">
-                <div class="inicio-content">
-                    <h1><strong>Somos J.C Segura Construcciones</strong></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptas non vel, laboriosam
-                        repudiandae assumenda aut nisi fuga cumque quam ipsam vero quo omnis ducimus, impedit accusamus
-                        ratione exercitationem nostrum.</p>
+            <div class="slider-content">
+                <!-- TEXTO SUPERPUESTO -->
+                <div class="slider-texto">
+                    <h1>Somos J.C Segura Construcciones</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptas non vel</p>
                 </div>
+
+                <!-- SLIDER -->
+                <div class="slider" id="slider">
+                    <section class="slider-section">
+                        <img src="media/sl1.jpeg" alt="">
+                    </section>
+                    <section class="slider-section">
+                        <img src="media/sl2.jpeg" alt="">
+                    </section>
+                    <section class="slider-section">
+                        <img src="media/sl3.jpeg" alt="">
+                    </section>
+                    <section class="slider-section">
+                        <img src="media/sl4.jpeg" alt="">
+                    </section>
+                    <section class="slider-section">
+                        <img src="media/sl5.jpeg" alt="">
+                    </section>
+                </div>
+
+                <!-- BOTONES -->
+                <div class="btn-left"><i class='bx bxs-left-arrow'>&lt;</i></div>
+                <div class="btn-right"><i class='bx bxs-right-arrow'>&gt;</i></div>
             </div>
         </section>
+
 
         <!-- Sección Profesionales -->
         <section class="profesionales-section">
@@ -108,6 +129,7 @@
             <h2>Página creada por <a href="#">codeX</a></h2>
         </div>
     </footer>
+    <script src="js/slider.js"></script>
 </body>
 
 </html>
