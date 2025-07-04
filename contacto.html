@@ -31,10 +31,49 @@
         </header>
     </div>
     <section class="contacto-section">
-        <div class="container">
-            <h2>Contacto</h2>
+        <h2 class="section-title">Contacto</h2>
+        <div class="contacto-grid">
+            <div class="contacto-form">
+                <form action="https://formsubmit.co/kufa6017@gmail.com" method="POST">
 
-            <div class="contacto-grid">
+                    <input type="hidden" name="_next" value="">
+
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="name" name="nombre" class="form-control" placeholder="Nombre" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="phone" name="telefono" class="form-control" placeholder="Teléfono">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="message" name="message" class="form-control" placeholder="Mensaje"
+                            required></textarea>
+                    </div>
+
+                    <input type="submit" class="btn" value="Enviar">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/contacto.html">
+                </form>
+            </div>
+
+
+
+            <div class="direccion-info">
+                <!-- Mapa de ubicación -->
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229.04758823960927!2d-65.42381028615246!3d-24.784752798815543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3b440a5adbb%3A0x4f70c432f135e8fe!2sJ.C.%20Segura!5e1!3m2!1ses!2sar!4v1750205371252!5m2!1ses!2sar"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
                 <!-- Información de contacto -->
                 <div class="contacto-info">
                     <div class="info-item">
@@ -43,7 +82,7 @@
                         </div>
                         <div class="info-content">
                             <h3>Dirección</h3>
-                            <p>Calle Pasaje Capitan Ruiz 330,<br>Salta Capital</p>
+                            <p>Calle Pasaje Capitan Ruiz 330,Salta Capital</p>
                         </div>
                     </div>
 
@@ -78,53 +117,9 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Formulario de contacto -->
-                <div class="contacto-form">
-                    <form action="#" method="POST">
-                        <div class="form-group">
-                            <label for="nombre">Nombre completo</label>
-                            <input type="text" id="nombre" name="nombre" class="form-control" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="email">Correo electrónico</label>
-                            <input type="email" id="email" name="email" class="form-control" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="telefono">Teléfono</label>
-                            <input type="tel" id="telefono" name="telefono" class="form-control">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="asunto">Asunto</label>
-                            <select id="asunto" name="asunto" class="form-control">
-                                <option value="cotizacion">Solicitud de cotización</option>
-                                <option value="proyecto">Consulta sobre proyecto</option>
-                                <option value="empleo">Oportunidades de empleo</option>
-                                <option value="otro">Otro</option>
-                            </select>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="mensaje">Mensaje</label>
-                            <textarea id="mensaje" name="mensaje" class="form-control" required></textarea>
-                        </div>
-
-                        <button type="submit" class="btn">Enviar mensaje</button>
-                    </form>
-                </div>
-            </div>
-
-            <!-- Mapa de ubicación -->
-            <div class="mapa">
-                <<iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229.04758823960927!2d-65.42381028615246!3d-24.784752798815543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3b440a5adbb%3A0x4f70c432f135e8fe!2sJ.C.%20Segura!5e1!3m2!1ses!2sar!4v1750205371252!5m2!1ses!2sar"
-                    width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
+
     </section>
 </body>
 
